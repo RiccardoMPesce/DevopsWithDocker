@@ -1,0 +1,11 @@
+docker run devopsdockeruh/simple-web-service:ubuntu
+docker exec -it cool_leakey bash
+root@31fc3a17a54b:/usr/src/app# ls
+server  text.log
+root@31fc3a17a54b:/usr/src/app# tail -f text.log
+Secret message is: 'You can find the source code here: https://github.com/docker-hy'
+2024-04-29 18:18:37 +0000 UTC
+2024-04-29 18:18:39 +0000 UTC
+2024-04-29 18:18:41 +0000 UTC
+2024-04-29 18:18:43 +0000 UTC
+2024-04-29 18:18:45 +0000 UTC
